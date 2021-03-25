@@ -1,0 +1,121 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+html {
+    font-family: "Poppins", sans-serif !important;
+}
+.navbar-brand {
+    font-size: 3rem;
+    font-weight: 700;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    width: 100%;
+    color: #fff !important;
+}
+.avatar-img {
+    background-color: #1269db;
+}
+.menu-opt-active {
+    background-color: #1269db;
+    color: #fff !important;
+}
+
+.menu-opt-active:hover {
+    background-color: #1269db !important;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.fancybox-thumb {
+    height: 100px;
+    width: 100px;
+}
+
+#div-imagenes {
+    text-align: center;
+}
+
+.ver-imagen {
+    cursor: pointer;
+    margin: 5px;
+}
+
+.container-img {
+    background-color: whitesmoke;
+    padding: auto;
+    border-radius: 10px;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.vista-imagen-principal {
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    /* float: left; */
+}
+
+.container-img .back {
+    float: left;
+    vertical-align: middle;
+}
+
+.container-img .forward {
+    float: left;
+    vertical-align: middle;
+}
+
+.label-horometro {
+    color: red;
+    display: grid;
+    grid-template-columns: 30% 7% 27% 6% 26%;
+}
+
+.label-horometro div {
+    width: 100%;
+    max-width: 100%;
+    text-align: center;
+}
+
+.ui.modal {
+    z-index: 1010 !important;
+}
+
+.close-modal {
+    position: absolute;
+    right: 1vw;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.centered {
+    text-align: center;
+}
+
+.table-mantenimiento thead tr th,
+.table-mantenimiento th {
+    background-color: aliceblue;
+}
+
+li.nav-item a {
+    width: 90% !important;
+}
+
+.nav-collapse li a.menu-opt-active {
+    width: 75% !important;
+}
+
+#kvFileinputModal {
+    display: none;
+}
+
+#addRowFiltro {
+    margin-bottom: 1vh;
+}
+
+.logo-empresa {
+    width: 80%;
+    height: 80%;
+    margin: auto;
+    text-align: center;
+}
